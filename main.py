@@ -12,8 +12,8 @@ tree = [{'myFavouriteTree': 'blue spruce'}
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Distant Reading Archive</h1>
-<p>A prototype API for distant reading of science fiction novels.</p>'''
+    return '''<h1>Hello</h1>
+<p>I love not men the less but nature more </p>'''
 
 # A route to return all of the available entries in our catalog.
 @app.route('/api/v1/tree', methods=['GET'])
